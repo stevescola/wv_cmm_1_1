@@ -34,5 +34,9 @@ The article meta data which is generated during the processing provides the arti
 - article_text_size
 
 Will also need to map to "is_part_of" from the Locale Header (associated by locale_id to create an association with the parent article/Locale in the geographic hierarchy.
+
+The files with the data is attached: 
+
 [article_meta.csv](https://github.com/stevescola/wv_cmm_1_1/files/10778033/article_meta.csv)
+
 [locale_header.csv](https://github.com/stevescola/wv_cmm_1_1/files/10778034/locale_header.csv)
