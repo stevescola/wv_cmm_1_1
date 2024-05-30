@@ -29,7 +29,7 @@ There will be two data sets that will be essential for this dashboard:
 
 The article meta data which is generated during the processing provides the article rating or status, as well as other data elements that can be used for this. The key elements will be:
 
-- locale_id
+- locale_id: identifier to create join across tables
 - wv_article_title
 - wv_article_rating: refers to the status
 - article_text_size
