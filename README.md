@@ -38,10 +38,7 @@ The article meta data which is generated during the processing provides the arti
 
 The "-is_part_of-" from the Locale Header will establish the association with the parent article/Locale to create the geographic hierarchy.
 
-The files with the data is attached: 
-
-### Files for Development
-
+The files with the data is attached
 
 ### Data Location in AWS
 The two data sets for the dashboard are located in AWS
