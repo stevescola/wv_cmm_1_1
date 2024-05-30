@@ -29,23 +29,26 @@ There will be two data sets that will be essential for this dashboard:
 
 The article meta data which is generated during the processing provides the article rating or status, as well as other data elements that can be used for this. The key elements will be:
 
+- locale_id
 - wv_article_title
 - wv_article_rating: refers to the status
 - article_text_size
 - locale_is_part_of_locale_id
 - locale_is_part_of_country_id
 
-Will also need to map to "is_part_of" from the Locale Header (associated by locale_id to create an association with the parent article/Locale in the geographic hierarchy.
+The "-is_part_of-" from the Locale Header will establish the association with the parent article/Locale to create the geographic hierarchy.
 
 The files with the data is attached: 
 
 ### Files for Development
 
 ### Data Location in AWS
-- Article Meta Data
--- s3://wikivoyage-etl-dev/the-dictionaries/article_meta/
--- File is in the folder with the most recent date
+The two data sets for the dashboard are located in AWS
 
-- Locale Header File
--- s3://wikivoyage-etl-dev/the-dictionaries/locale_header_df/
--- File is in the folder with the most recent date
+**Article Meta Data**
+- s3://wikivoyage-etl-dev/the-dictionaries/article_meta/
+- File is in the folder with the most recent date
+
+**Locale Header File**
+- s3://wikivoyage-etl-dev/the-dictionaries/locale_header_df/
+- File is in the folder with the most recent date
