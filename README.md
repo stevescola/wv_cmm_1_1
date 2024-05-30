@@ -32,11 +32,20 @@ The article meta data which is generated during the processing provides the arti
 - wv_article_title
 - wv_article_rating: refers to the status
 - article_text_size
+- locale_is_part_of_locale_id
+- locale_is_part_of_country_id
 
 Will also need to map to "is_part_of" from the Locale Header (associated by locale_id to create an association with the parent article/Locale in the geographic hierarchy.
 
 The files with the data is attached: 
 
-[article_meta.csv](https://github.com/stevescola/wv_cmm_1_1/files/10778033/article_meta.csv)
+### Files for Development
 
-[locale_header.csv](https://github.com/stevescola/wv_cmm_1_1/files/10778034/locale_header.csv)
+### Data Location in AWS
+- Article Meta Data
+-- s3://wikivoyage-etl-dev/the-dictionaries/article_meta/
+-- File is in the folder with the most recent date
+
+- Locale Header File
+-- s3://wikivoyage-etl-dev/the-dictionaries/locale_header_df/
+-- File is in the folder with the most recent date
