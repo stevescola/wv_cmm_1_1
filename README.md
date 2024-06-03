@@ -19,6 +19,15 @@ In short, this dashboard will enable us to query quality based on rating/status 
 
 ### Primary Data Views
 The primary views to enable the user to explore content quality include:
+
+### Main View with Querying and Filtering
+- Query an individual Locale
+- Query/filter by rating
+- Distribution of articles by rating/status
+- Display global map with country coloring based on country article rating
+- Select country on map to view 
+- Drilling down by Locale hierarchy level from country to district
+
 **Individual Locale View**
 - locale_name_raw
 - locale_type
@@ -32,21 +41,11 @@ _Depending on complexity, would also like to view peer Locales under immediate p
 **Country View**
 - locale_name_raw
 - wv_article_rating
-- Child locales organized by subdivisions and sorted by rating [star, guide, usable, outline], with article_text_size
-- Map view
 - Bar chart distribution of child locales by rating
-
-### Querying and Filtering
-
-- Query an individual Locale
-- Query by rating
-- Display global map with country coloring based on country article rating
-- Select country on map to view 
-- Query by country with child Locales organized by subdivisions and sorted by rating [star, guide, usable, outline]
-- Filter and display child locales to country as either city or subdivision on country map (based on GPS) with colored point based on wv_article_rating
-- Evaluate the distribution of articles by rating/status
-- Drilling down by Locale hierarchy level from country to district
-- At the article/locale level, cross over to a view of completeness which includes a KPI or breakdown
+- Child locales organized by subdivisions and sorted by rating [star, guide, usable, outline], with article_text_size
+- Child locales can be clicked on for the Individual Locale View
+- Map view that can be filter for sub division or city view
+- Map view to filter and display child locales either city or subdivision on country map (based on GPS) with colored point based on wv_article_rating
 
 ## Understanding the Data
 There will be two data sets that will be essential for this dashboard:
