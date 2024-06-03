@@ -20,7 +20,7 @@ In short, this dashboard will enable us to query quality based on rating/status 
 ### Primary Data Views
 The primary views to enable the user to explore content quality include:
 
-### Main View with Querying and Filtering
+**Main View with Querying and Filtering**
 - Query an individual Locale
 - Query/filter by rating
 - Distribution of articles by rating/status
