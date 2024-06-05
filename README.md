@@ -34,7 +34,7 @@ The primary views to enable the user to explore content quality include:
 - wv_article_rating
 - article_text_size
 - locale_id_is_part_of
-- locale_is_part_of_country_idb
+- locale_is_part_of_country_id
 - locale_is_capital = TRUE
 _Depending on complexity, would also like to view peer Locales under immediate parent Locale_
 
@@ -78,3 +78,6 @@ The two data sets for the dashboard are located in AWS and accessible through At
 **Locale Header File**
 - s3://wikivoyage-etl-dev/the-dictionaries/locale_header_df/
 - File is in the folder with the most recent date
+
+**Joined Data Set**
+- ccm_1 can be accessed via Athena
